@@ -1,6 +1,6 @@
 # Coffe Quotes website ☕️ 
 
-This is a repository for a coffee quotes website. It list a daily quote ** about coffee**. Hope you like it! 🤩
+This is a repository for a coffee quotes website. It list a daily quote **about coffee**. Hope you like it! 🤩
 
 ## Contribute to the repository 🚀
 Feel free to contribute with your favorite coffe quotes to the **.json** file in the **/data** folder.
