@@ -3,6 +3,7 @@ fetch('https://filiphuhta.github.io/coffe-quote/data/quotes.json')
   .then(response => response.json())
   .then(data => {
     // Get the current date
+    console.log(data);
     const today = new Date();
     const dayOfYear = today.getFullYear() * 1000 + today.getMonth() * 31 + today.getDate();
 
