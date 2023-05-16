@@ -1,5 +1,5 @@
 // Fetch the JSON file
-fetch('https://filiphuhta.github.io/coffe-quote/data/quotes.json')
+fetch('data/quotes.json')
   .then(response => response.json())
   .then(data => {
     // Get the current date
