@@ -11,6 +11,7 @@ Feel free to contribute with your favorite coffe quotes to the **.json** file in
     "quoteIdentifier": 100,
     "quote": "Coffee is the driving force behind my dreams."
   },
-  // Next Quote
+  
+  // Add more quotes...
  ]
 ```
