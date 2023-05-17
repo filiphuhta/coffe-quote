@@ -15,17 +15,27 @@ body {
   text-align: center;
 }
 
-.quote {
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+#quote-text {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #8D6E63;
-  font-family: 'CoolFont' cursive, sans-serif;
+  font-family: 'CoolFont'cursive, sans-serif;
 }
 
 /* Media queries for responsive layout */
 @media screen and (max-width: 768px) {
-  .quote {
+
+  h1 {
+    font-size: 34px;
+  }
+
+  #quote-text {
     font-size: 28px;
   }
 
@@ -35,7 +45,11 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  .quote {
+  h1 {
+    font-size: 28px;
+  }
+
+  #quote-text {
     font-size: 24px;
   }
 
