@@ -13,7 +13,7 @@ fetch('data/quotes.json')
     // Display the quote on the website
     const quoteContainer = document.getElementById('quote-container');
     const quoteText = document.getElementById('quote-text');
-    quoteText.textContent = quote.quote;
+    quoteText.textContent = `"${quote.quote}"`;
   })
   .catch(error => {
     console.error('Error:', error);
